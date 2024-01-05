@@ -44,6 +44,33 @@ void task2()
         }
     }
 }
+void task3() {
+    const int UPPER_RANGE = 10;
+    const int LOWER_RANGE = 5;
+
+    const int SIZE_OF_ARRAY = 3;
+    int numbers[SIZE_OF_ARRAY];
+
+    srand(time(NULL));
+
+        for (int i = 0; i < SIZE_OF_ARRAY; i++)
+        {
+            numbers[i] = rand() % (UPPER_RANGE - LOWER_RANGE + 1) + LOWER_RANGE;
+        }
+
+        for (int i = 0; i < SIZE_OF_ARRAY; i++)
+            std::cout << numbers[i] << ",";
+        std::cout << "\n";
+
+        int sum = 0;
+        for (int i = 0; i < SIZE_OF_ARRAY; i++)
+        {
+            sum = sum + numbers[i];
+        }
+
+        double avrage = sum * 1.0 / SIZE_OF_ARRAY;
+        std::cout << "Œredia liczb to: " << avrage << "\n";
+}
 int main()
 {
     std::cout << "Hello World!\n";
