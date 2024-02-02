@@ -70,7 +70,18 @@ void task3() {
 
         double avrage = sum * 1.0 / SIZE_OF_ARRAY;
         std::cout << "Œredia liczb to: " << avrage << "\n";
+
+        //wersja 2
+
+        std::cout << "\nWersja 2\n";
+        int numbersOfOccurances[UPPER_RANGE - LOWER_RANGE + 1];
+        for (int i = 0; i < UPPER_RANGE - LOWER_RANGE + 1; i++);
+        {
+            numbersOfOccurances[numbers[j] - LOWER_RANGE]++                        
+                            `   `   ---*/*/*/
+        }
 }
+
 int main()
 {
     std::cout << "Hello World!\n";
