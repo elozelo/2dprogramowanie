@@ -1,0 +1,5 @@
+﻿  ConsoleApplication1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sal.h(2361,1): error C2144: syntax error: 'int' should be preceded by ';'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sal.h(2361,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\hellojelly\2dprogramowanie\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(219,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\hellojelly\2dprogramowanie\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(220,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data

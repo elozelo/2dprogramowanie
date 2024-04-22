@@ -1,28 +1,11 @@
-// stringConsoleApp.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// ConsoleApplication4.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-using namespace std;
-
-
-void task1() {
-    char signFromUser;
-    cout << "Podaj znak\n";
-    cin >> signFromUser;
-    
-    cout << "Poda³eœ znak" << signFromUser << endl;
-    if (signFromUser >= 'a' && signFromUser <= 'z') {
-        cout << "Znak jest ma³¹ liter¹ alfabetu\n"
-    }
-    else {
-        cout << "Znak nie jest ma³¹ liter¹ alfabetu\n"
-    }
-        }
 
 int main()
 {
-    cout << "Hello World!\n";
-
+    std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
